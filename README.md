@@ -48,4 +48,4 @@ Create the PR
 
 ### Group Members
 * Kadu Barral
-* Sadra Farish
+* Sadra Farshid

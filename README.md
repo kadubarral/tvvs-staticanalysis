@@ -32,7 +32,7 @@ mvn clean compile exec:java
 
 #### To help your work
 * See the actual report of issues on SonarCloud
-  * https://sonarcloud.io/dashboard?id=brave_brave-core
+  * https://sonarcloud.io/dashboard?id=kadubarral_tvvs-staticanalysis
 * Use SonarLint report on Intellij 
 
 ## Send your code

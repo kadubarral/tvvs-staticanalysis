@@ -7,8 +7,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Timestamp;
 import java.util.Date;
-import java.util.Scanner;
-import org.h2.util.CacheHead;
 import org.h2.tools.DeleteDbFiles;
 
 public class staticanalisys {

@@ -47,7 +47,12 @@ public class staticanalisys {
             prep.executeBatch();
             conn.setAutoCommit(true);
 
-
+            double num1=0.0, num2=0.0;
+            double sum=0.0, sub=0.0, multiple=0.0;
+            double divide=0.0, remainder=0.0, power=0.0;
+            char operator='\0';
+            boolean nextOperation = true;
+            char ch='\0';
 
             ResultSet rst = stat.executeQuery("Select count(*) from ACTIVITY");
             Double total = 0.0;

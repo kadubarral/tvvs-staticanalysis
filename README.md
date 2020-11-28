@@ -38,7 +38,7 @@ mvn clean compile exec:java
 
 #### To help your work
 * See the actual report of issues on SonarCloud
-  * https://sonarcloud.io/dashboard?id=kadubarral_tvvs-staticanalysis
+  * https://sonarcloud.io/dashboard?id=kadubarral_java-simple-h2
 * Use SonarLint report on Intellij 
 
 ## Send your code

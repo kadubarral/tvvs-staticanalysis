@@ -1,3 +1,5 @@
+package feup.tvvs;
+
 import java.net.InetAddress;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -86,7 +88,6 @@ public class staticanalisys {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-
             //close connection
             conn.close();
         } catch (Exception e) {

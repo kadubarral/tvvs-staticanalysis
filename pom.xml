@@ -7,9 +7,9 @@
     <groupId>feup.tvvs</groupId>
     <artifactId>staticanalysis</artifactId>
     <version>1.0-SNAPSHOT</version>
-    
+
     <properties>
-        <exec.mainClass>feup.tvvs.staticanalisys</exec.mainClass>
+        <exec.mainClass>feup.tvvs.staticanalysis</exec.mainClass>
 
         <maven.compiler.target>11</maven.compiler.target>
         <maven.compiler.source>11</maven.compiler.source>
@@ -24,6 +24,12 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <version>1.4.200</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

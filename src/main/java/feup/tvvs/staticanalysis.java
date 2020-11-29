@@ -2,6 +2,8 @@ package feup.tvvs;
 
 import java.net.InetAddress;
 import java.sql.Connection;
+import java.text.DecimalFormat;
+import java.nio.file.FileSystem;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -35,7 +37,7 @@ public class staticanalysis {
             String servername = InetAddress.getLocalHost().getHostName();
 
             //create table
-            stat.execute("CREATE TABLE ACTIVITY (ID INTEGER, STARTTIME datetime, ENDTIME datetime, SERVERNAME VARCHAR(200), ACTIVITYNAME VARCHAR(200), PRIMARY KEY (ID))");
+            stat.execute("CREAT TABLE ACTIVITY (ID INTEGER, STARTTIME datetime, ENDTIME datetime, SERVERNAME VARCHAR(200), ACTIVITYNAME VARCHAR(200), PRIMARY KEY (ID))");
 
             //prepared statement
             PreparedStatement prep = conn.prepareStatement("INSERT INTO ACTIVITY (ID, STARTTIME, ENDTIME, SERVERNAME, ACTIVITYNAME) VALUES (?,?,?,?,?)");

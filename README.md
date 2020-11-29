@@ -9,6 +9,8 @@ This project has the proposal to show SonarLint and SonarCloud working with Inte
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=kadubarral_tvvs-staticanalysis&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=kadubarral_tvvs-staticanalysis)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=kadubarral_tvvs-staticanalysis&metric=security_rating)](https://sonarcloud.io/dashboard?id=kadubarral_tvvs-staticanalysis)
 
+![Unit Test](https://github.com/kadubarral/tvvs-staticanalysis/workflows/Build/badge.svg)
+
 ## Setup Activities
 Fork this project
 ![PR](docs/github-FORK.png)

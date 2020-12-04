@@ -8,6 +8,6 @@ public class TestStaticAnalysis{
 
     @Test
     public void testInsertAndPrint() {
-        assertEquals(Integer.valueOf(10), staticanalysis.insertAndPrint());
+        assertEquals(Integer.valueOf(10), Staticanalysis.insertAndPrint());
     }
 }
